@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, createReadStream } from 'fs';
+import { existsSync, createReadStream } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import crypto from 'crypto';
