@@ -5,7 +5,6 @@ import { dirname, join } from 'path';
 const write = async () => {
   const filename = fileURLToPath(import.meta.url);
   const fileToWrite = join(dirname(filename), 'files', 'fileToWrite.txt');
-//   const input = readline.createInterface(process.stdin);
   if (!existsSync(fileToWrite)) {
     throw new Error(`file does not exist`);
   } else {
